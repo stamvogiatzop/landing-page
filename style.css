@@ -5,14 +5,160 @@
 
 body {
   font-family: Roboto;
+  height: 100vh;
 }
 
-.third-mid {
-  background-color: blue;
+/* header styling */
+
+header {
+  padding: 0 20em;
+  background-color: #1F2937;
 }
 
-footer {
+.header-top {
+  display: flex;
+  flex: 1 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 4px 12px 12px;
+  background-color: #1F2937;
+  margin-bottom: 4em;
+}
+
+.logo-stuff {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  border: 1em ridge #e5e7eb;
+}
+
+.logo{
+  max-width: 50px;
+}
+
+.logo-text {
+  font-size: 24px;
+  color: #F9FAF8;
+  padding-left: 8px;
+}
+
+.link-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  flex: 1;
+}
+
+.link-container a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* second part of header */
+
+.header-center-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  flex: 1 0 auto;
+  padding-bottom: 6em;
+}
+
+.container-left {
+  padding: 0 16px;
+  flex-wrap: wrap;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-left h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.container-left p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.container-left button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-size: 16px;
+  border-radius: 25% 10%;
+  font-weight: 600;
+  padding: 8px 16px;
+  width: 100px;
+  height: 50px;
+}
+
+.header-image {
+  width: 60%;
+  height: 20%;
+}
+
+/* end of header styling */
+
+
+/* mid section first part (cards)*/
+
+.mid-first {
+  padding: 2em 20em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+/* end of mid section first part */
+
+
+
+/* mid section second part (quote) */
+.mid-second {
+  padding: 6em 20em;
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+}
+
+.quote-person {
+ align-self: flex-end;
+ padding: 24px 32px 0 0;
+}
+
+.quote-person p {
+  font-size: 20px;
+}
+
+.quote h2 {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1F2937;
+}
+
+
+/* end of mid section second part (quote) */
+
+/* mid section third part (call to action blue rectangular)*/
+
+
+
+
+/* footer styling */
+
+footer {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  padding: 16px 0;
+}
+
+footer p {
+  color: #F9FAF8;
+  font-size: 12px;
 }
