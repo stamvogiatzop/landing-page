@@ -12,7 +12,7 @@ body {
 /* header styling */
 /* first part of header */
 header {
-  padding: 0 20em;
+  padding: 0 15em;
   background-color: #1F2937;
 }
 
@@ -21,7 +21,7 @@ header {
   flex: 1 0 auto;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 4px 12px 12px;
+  padding-top: 24px;
   background-color: #1F2937;
   margin-bottom: 4em;
 }
@@ -53,8 +53,10 @@ header {
 .top-link {
   color: #e5e7eb;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 500;
   text-align: end;
+  display: flex;
 }
 /* end of first header part */
 
@@ -134,6 +136,8 @@ header {
 .card-pic {
   width: 300px;
   height: 200px;
+  border: 2px solid #3882F6;
+  border-radius: 10px;
 }
 
 .card p {
@@ -177,13 +181,36 @@ header {
 /* mid section third part (call to action blue rectangular)*/
 
 .mid-third {
-  margin: 4em 35em;
+  margin: 5em 20em;
   background-color: #3882F6;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2em 6em;
-  border-radius: 3%;
+  padding: 2em 4em;
+  border-radius: 15px;
+}
+
+.third-mid-sign-up {
+  display: flex;
+  justify-content: center;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border: 1px solid #F9FAF8;
+  font-size: 14px;
+  border-radius: 25% 10%;
+  font-weight: 600;
+  padding: 8px 16px;
+  width: 90px;
+  height: 30px;
+}
+
+.text-container {
+  color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 
