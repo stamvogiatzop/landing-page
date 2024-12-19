@@ -1,3 +1,4 @@
+/* General styling */
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +10,7 @@ body {
 }
 
 /* header styling */
-
+/* first part of header */
 header {
   padding: 0 20em;
   background-color: #1F2937;
@@ -29,7 +30,7 @@ header {
   display: flex;
   gap: 1em;
   align-items: center;
-  border: 1em ridge #e5e7eb;
+  border: 3mm ridge #e5e7eb;
 }
 
 .logo{
@@ -49,14 +50,16 @@ header {
   flex: 1;
 }
 
-.link-container a {
+.top-link {
   color: #e5e7eb;
   text-decoration: none;
   font-size: 18px;
+  text-align: end;
 }
+/* end of first header part */
+
 
 /* second part of header */
-
 .header-center-container {
   display: flex;
   justify-content: center;
@@ -67,7 +70,7 @@ header {
 }
 
 .container-left {
-  padding: 0 16px;
+  padding: 0 32px 0 0;
   flex-wrap: wrap;
   gap: 16px;
   display: flex;
@@ -93,29 +96,57 @@ header {
   font-weight: 600;
   padding: 8px 16px;
   width: 100px;
-  height: 50px;
+  height: 40px;
 }
 
 .header-image {
   width: 60%;
-  height: 20%;
+  border-radius: 15% 5%;
 }
-
 /* end of header styling */
 
 
 /* mid section first part (cards)*/
-
 .mid-first {
   padding: 2em 20em;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 40px;
+  padding-bottom: 8em;
+}
+
+.card-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: baseline;
   gap: 16px;
 }
-/* end of mid section first part */
 
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-pic {
+  width: 300px;
+  height: 200px;
+}
+
+.card p {
+  text-align: center;
+  padding-top: 8px;
+}
+
+.mid-first h3 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+}
+/* end of mid section first part */
 
 
 /* mid section second part (quote) */
@@ -140,13 +171,20 @@ header {
   font-weight: 300;
   color: #1F2937;
 }
-
-
 /* end of mid section second part (quote) */
+
 
 /* mid section third part (call to action blue rectangular)*/
 
-
+.mid-third {
+  margin: 4em 35em;
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 6em;
+  border-radius: 3%;
+}
 
 
 /* footer styling */
